@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jt.mapper.ItemCatMapper">
+	<!-- 查询全部，根据更新顺序排序 -->
+	<select id="findAllItemCat" resultType="com.jt.pojo.ItemCat">
+		SELECT * FROM tb_item_cat order by sort_order desc
+	</select>
+
+	<select id="findItemCatByParentId" resultType="com.jt.pojo.ItemCat">
+		SELECT * FROM tb_item_cat where parent_id = #{parentId}
+	</select>
+
+</mapper>

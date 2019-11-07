@@ -1,0 +1,5 @@
+com\jt\service\ItemParamService.class
+com\jt\service\ItemCatParamService.class
+com\jt\service\ItemCatService.class
+com\jt\service\ItemService.class
+com\jt\service\ParamItemService.class

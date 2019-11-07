@@ -1,0 +1,15 @@
+com\jt\manage\service\ManagerParamItemService.class
+com\jt\manage\service\ManagerItemParamServiceImpl.class
+com\jt\manage\controller\ItemCatParamController.class
+com\jt\manage\controller\ItemImageController.class
+com\jt\manage\controller\ParamItemController.class
+com\jt\manage\controller\IndexController.class
+com\jt\manage\service\ManagerParamItemServiceImpl.class
+com\jt\manage\service\ManagerItemCatServiceImpl.class
+com\jt\manage\service\ManagerItemServiceImpl.class
+com\jt\manage\controller\ItemController.class
+com\jt\manage\controller\ItemCatController.class
+com\jt\manage\controller\ItemParamController.class
+com\jt\manage\service\ManagerItemParamService.class
+com\jt\manage\service\ManagerItemCatService.class
+com\jt\manage\service\ManagerItemService.class
